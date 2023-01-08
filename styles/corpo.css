@@ -1,0 +1,20 @@
+.perfil {
+    display: flex;
+    flex-direction: column;
+    color: var(--branco);
+}
+
+.perfil__nome {
+    font-weight: 800;
+    font-size: 4em;
+}
+
+.perfil__ranking {
+    font-size: 1.5em;
+}
+
+.perfil__posicao {
+    color: rgb(244,183,25);
+    font-size: 3em;
+    font-weight: 800;
+}
