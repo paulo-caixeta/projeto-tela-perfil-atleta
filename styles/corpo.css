@@ -18,12 +18,16 @@
 
 .perfil__posicao {
     color: var(--amarelo);
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 700;
     padding: 0.5em 0;
 }
 
 .perfil__apelido {
+    font-style: italic;
+}
+
+.perfil__naipe {
     font-style: italic;
 }
 
@@ -35,12 +39,13 @@
 
 .perfil__bandeira_UF {
     width: 4em;
+    padding: 0.4em;
     align-items: center;
 }
 
 .perfil__informacoes {
     justify-content: space-between;
-    padding: 0.8em;
+    padding: 0.8em 0.75em 0.20em;
     align-items: center;
     justify-items: center;
 }
