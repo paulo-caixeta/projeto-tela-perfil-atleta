@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Perfil Atleta</title>
 </head>
@@ -24,10 +26,19 @@
                     <a href="#" class="lista-menu__link">Sobre</a>
                 </li>
                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Rankings</a>
+                    <a href="#" class="lista-menu__link">PEC Brasil</a>
                 </li>
                 <li class="lista-menu__item">
                     <a href="#" class="lista-menu__link">Agenda</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Rankings</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Notícias</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Parceiros</a>
                 </li>
                 <li class="lista-menu__item">
                     <a href="#" class="lista-menu__link">Planos</a>
@@ -45,17 +56,30 @@
         </div>
     </header>
     <section class="perfil">
+        <img src="img/perfil_atleta.jpg" alt="Foto de perfil do atleta" class="perfil__foto-perfil">
         <h1 class="perfil__nome">Carlos Alcaraz</h1>
-        <h2 class="perfil__ranking">Ranking Individual</h2>
-        <spam class="perfil__posicao">1º</spam>
-        <spam class="perfil__estado">MG</spam>
         <spam class="perfil__apelido">Carlim</spam>
+        <h2 class="perfil__ranking">Ranking Individual</h2>
         <spam class="perfil__naipe">Masculino</spam>
+        <spam class="perfil__posicao">1º</spam>
+        <img src="img/Bandeira_de_MG.png" alt="Bandeira da UF" class="perfil__bandeira_UF">
         <spam class="perfil__cidade">Belo Horizonte/MG</spam>
-        <spam class="perfil__habilidade">Destro</spam>
-        <spam class="perfil__idade">36 anos</spam>
-        <spam class="perfil__altura">1,83 m</spam>
-        <spam class="perfil__peso">85 Kg</spam>
+        <div class="perfil__informacoes">
+            <table>
+                <tr class="perfil__informacoes-cabecalho">
+                    <td class="perfil__informacoes">habilidade</td>
+                    <td class="perfil__informacoes">idade</td>
+                    <td class="perfil__informacoes">altura</td>
+                    <td class="perfil__informacoes">peso</td>
+                </tr>
+                <tr class="perfil__informacoes-conteudo">
+                    <td class="perfil__informacoes">Destro</td>
+                    <td class="perfil__informacoes">36 anos</td>
+                    <td class="perfil__informacoes">1,83 Kg</td>
+                    <td class="perfil__informacoes">85 Kg</td>
+                </tr>
+            </table>
+        </div>
     </section>
 </body>
 

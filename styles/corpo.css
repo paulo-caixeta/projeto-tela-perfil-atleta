@@ -2,19 +2,45 @@
     display: flex;
     flex-direction: column;
     color: var(--branco);
+    align-items: center;
 }
 
 .perfil__nome {
-    font-weight: 800;
-    font-size: 4em;
+    font-weight: 900;
+    font-size: 3.5em;
+    align-items: center;
 }
 
 .perfil__ranking {
     font-size: 1.5em;
+    padding: 1em 0 0 0;
 }
 
 .perfil__posicao {
-    color: rgb(244,183,25);
+    color: var(--amarelo);
     font-size: 3em;
-    font-weight: 800;
+    font-weight: 700;
+    padding: 0.5em 0;
+}
+
+.perfil__apelido {
+    font-style: italic;
+}
+
+.perfil__foto-perfil {
+    border-radius: 100%;
+    width: 50%;
+    padding: 2em;
+}
+
+.perfil__bandeira_UF {
+    width: 4em;
+    align-items: center;
+}
+
+.perfil__informacoes {
+    justify-content: space-between;
+    padding: 0.8em;
+    align-items: center;
+    justify-items: center;
 }
